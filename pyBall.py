@@ -16,7 +16,8 @@ black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
 
-ball = pygame.image.load("./images/ball.png")
+###ball = pygame.image.load("./images/ball.png")
+ball = pygame.image.load("./images/baseball.jpg")
 ballrect = ball.get_rect()
 
 while 1:
